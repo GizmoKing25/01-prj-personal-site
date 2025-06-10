@@ -2,10 +2,88 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <!-- Makes the site responsive on all devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miguel A. Romero Portfolio</title>
+  <!-- Link to external CSS file -->
   <link rel="stylesheet" href="style.css">
+  <!-- Link to Google Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- Navigation bar with links to sections and icons -->
+  <nav>
+    <a href="#bio">
+      <!-- Person icon for About -->
+      <span class="material-icons" aria-hidden="true">person</span>
+      About
+    </a>
+    <a href="#skills">
+      <!-- Build icon for Skills -->
+      <span class="material-icons" aria-hidden="true">build</span>
+      Skills
+    </a>
+    <a href="#reflection">
+      <!-- Chat icon for Reflections -->
+      <span class="material-icons" aria-hidden="true">chat</span>
+      Reflections
+    </a>
+  </nav>
+
+  <!-- Hero section with name and intro -->
+  <header class="hero">
+    <div class="bat-logo">🦇</div>
+    <h1>Hello, I'm Miguel A. Romero</h1>
+    <p>🧑‍💻 Web Developer in training | Batman Fan Forever</p>
+  </header>
+
+  <!-- About Me section -->
+  <section id="bio">
+    <h2>About Me</h2>
+    <p>Hi! I'm Miguel, a 19-year-old student learning to build websites and software. I'm currently taking a web development course and excited to share my progress as I learn and grow in this field. Also, Batman is the best superhero — no debate!</p>
+  </section>
+
+  <!-- Skills section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <!-- Add icons for each skill -->
+      <li>
+        <span class="material-icons" aria-hidden="true">language</span>
+        HTML
+      </li>
+      <li>
+        <span class="material-icons" aria-hidden="true">palette</span>
+        CSS
+      </li>
+      <li>
+        <span class="material-icons" aria-hidden="true">memory</span>
+        Python
+      </li>
+      <li>
+        <span class="material-icons" aria-hidden="true">code</span>
+        C++
+      </li>
+    </ul>
+  </section>
+
+  <!-- Reflections section -->
+  <section id="reflection">
+    <h2>Reflections</h2>
+    <h3>Building Websites with AI</h3>
+    <p>I used AI to help me structure my personal website in a way that is clean and beginner-friendly. It gave me guidance on layout and helped me stay organized, which made the project feel less overwhelming.</p>
+
+    <h3>Interview Question</h3>
+    <p>If asked how I built this website, I would say I started with basic HTML and CSS, using AI as a mentor to help me plan the layout, choose clean styles, and make the site look professional. I wrote and edited the code myself while learning through the process.</p>
+
+    <h3>LinkedIn Post</h3>
+    <p>🎉 Just built my very first personal portfolio website using HTML and CSS! Big thanks to my web development class and AI tools that helped guide the structure. Excited to keep growing and adding my projects here! 🧑‍💻🦇</p>
+  </section>
+
+  <!-- Footer with copyright and GitHub link -->
+  <footer>
+    <p>&copy; 2025 Miguel A. Romero | Made with ❤️ and a little help from AI</p>
+    <p>Visit: <a href="https://USERNAME.github.io/REPO-NAME" target="_blank" style="color: #fff; text-decoration: underline;">My GitHub Page</a></p>
+  </footer>
 </body>
 </html>
